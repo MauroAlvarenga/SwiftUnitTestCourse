@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "08F7A28D-8FBC-44F7-849F-9ECC436C26D2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA36FAB5-6D86-4D79-A5A2-E579422896F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "test_toCelsius()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "test_toCelsius()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E - 158a5a3765aaba0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
+                  moduleName = "TestCourseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E - 158a5a3765aaba0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
+                  moduleName = "TestCourseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "test_toCelsius()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F - 158a5a3765aaba0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
+                  moduleName = "TestCourseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F - 158a5a3765aaba0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
+                  moduleName = "TestCourseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
