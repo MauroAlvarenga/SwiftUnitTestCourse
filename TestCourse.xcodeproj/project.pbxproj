@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E74C134F28BD64CE00BCA859 /* TemperatureCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C134E28BD64CE00BCA859 /* TemperatureCalculator.swift */; };
 		E75CEDAE28C69D14000F30D9 /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CEDAD28C69D14000F30D9 /* StringManager.swift */; };
+		E7D65D362902F5B600EA9D9C /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D65D352902F5B600EA9D9C /* ValidNumber.swift */; };
+		E7D65D392902F68400EA9D9C /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */; };
 		E7EF6358289B19080052336F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF6357289B19080052336F /* AppDelegate.swift */; };
 		E7EF635A289B19080052336F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF6359289B19080052336F /* SceneDelegate.swift */; };
 		E7EF635C289B19080052336F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF635B289B19080052336F /* ViewController.swift */; };
@@ -21,6 +23,7 @@
 		E7EF637E289B19090052336F /* TestCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF637D289B19090052336F /* TestCourseUITestsLaunchTests.swift */; };
 		E7EF638D289B1D030052336F /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF638C289B1D030052336F /* Calculator.swift */; };
 		E7EF6390289B1DF40052336F /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF638F289B1DF40052336F /* CalculatorTests.swift */; };
+		E7F19DF62915BD43008DAE03 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F19DF52915BD43008DAE03 /* Add.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 /* Begin PBXFileReference section */
 		E74C134E28BD64CE00BCA859 /* TemperatureCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculator.swift; sourceTree = "<group>"; };
 		E75CEDAD28C69D14000F30D9 /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
+		E7D65D352902F5B600EA9D9C /* ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
+		E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
 		E7EF6354289B19080052336F /* TestCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EF6357289B19080052336F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EF6359289B19080052336F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		E7EF637D289B19090052336F /* TestCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E7EF638C289B1D030052336F /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		E7EF638F289B1DF40052336F /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		E7F19DF52915BD43008DAE03 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7D65D342902F5A900EA9D9C /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E7D65D352902F5B600EA9D9C /* ValidNumber.swift */,
+				E7F19DF52915BD43008DAE03 /* Add.swift */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
+		E7D65D372902F67800EA9D9C /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		E7EF634B289B19080052336F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +132,7 @@
 		E7EF6356289B19080052336F /* TestCourse */ = {
 			isa = PBXGroup;
 			children = (
+				E7D65D342902F5A900EA9D9C /* Mock */,
 				E7EF638B289B1CF60052336F /* XCTest */,
 				E7EF6357289B19080052336F /* AppDelegate.swift */,
 				E7EF6359289B19080052336F /* SceneDelegate.swift */,
@@ -125,6 +149,7 @@
 		E7EF6370289B19090052336F /* TestCourseTests */ = {
 			isa = PBXGroup;
 			children = (
+				E7D65D372902F67800EA9D9C /* Mock */,
 				E7EF638E289B1DD50052336F /* XCTest */,
 				E7EF6371289B19090052336F /* TestCourseTests.swift */,
 			);
@@ -289,11 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F19DF62915BD43008DAE03 /* Add.swift in Sources */,
 				E7EF6362289B19080052336F /* TestCourse.xcdatamodeld in Sources */,
 				E7EF635C289B19080052336F /* ViewController.swift in Sources */,
 				E7EF6358289B19080052336F /* AppDelegate.swift in Sources */,
 				E7EF638D289B1D030052336F /* Calculator.swift in Sources */,
 				E75CEDAE28C69D14000F30D9 /* StringManager.swift in Sources */,
+				E7D65D362902F5B600EA9D9C /* ValidNumber.swift in Sources */,
 				E74C134F28BD64CE00BCA859 /* TemperatureCalculator.swift in Sources */,
 				E7EF635A289B19080052336F /* SceneDelegate.swift in Sources */,
 			);
@@ -303,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D65D392902F68400EA9D9C /* ValidNumberTest.swift in Sources */,
 				E7EF6372289B19090052336F /* TestCourseTests.swift in Sources */,
 				E7EF6390289B1DF40052336F /* CalculatorTests.swift in Sources */,
 			);

@@ -16,30 +16,26 @@ class CalculatorTests: XCTestCase {
     var strSut: StringManager!
     
     override func setUpWithError() throws {
-        print("NOW setUp()")
         self.sut = Calculator()
         self.tempSut = TemperatureCalculator()
         self.strSut = StringManager()
     }
     
     override func tearDownWithError() throws {
-        print("NOW tearDown()")
         self.sut = nil
         self.tempSut = nil
         self.strSut = nil
     }
     
+    // test naming format:
     // func test_MethodName_StateUnderTest_ExpectedBehaviour
     
-    func testCalculatorNotNil() {
-        print("NOW calculatorNotNil()")
+    func test_Calculator_NotNil() {
         let message = "Sut should not be nil here."
         XCTAssertNotNil(sut, message)
     }
     
     func test_add_correctInput_correctResult() {
-        print("NOW add_correctInput_correctResult()")
-        
         // 1. Arrange
         let number1 = 10, number2 = 20
         let expectedResult = 30
@@ -53,7 +49,6 @@ class CalculatorTests: XCTestCase {
     }
     
     func test_substract_correctInput_correctResult() {
-        print("NOW substract_correctInput_correctResult()")
         // Given
         let number1 = 11, number2 = 7
         let expectedResult = 4
@@ -64,27 +59,23 @@ class CalculatorTests: XCTestCase {
     }
     
     func test_divide_correctInput_correctResult() {
-        print("NOW divide_correctInput_correctResult()")
         // Given
         let number1 = 4, number2 = 2
         let expectedResult = 2
-        // When
-        let result = sut.divide(number1: number1, number2: number2)
+       
         // Then
-        XCTAssertEqual(result, expectedResult)
+        XCTAssertNoThrow(try sut.divide(number1: number1, number2: number2))
+        XCTAssertEqual(expectedResult, try sut.divide(number1: number1, number2: number2))
     }
     
-    func test_divideByZero_zeroInput_Throws() {
-        print("NOW divideByZero_zeroInput_Throws()")
+    func test_divide_zeroInput_Throws() {
         // Given
         let number1 = 4, number2 = 0
-        //When
         // Then
-        XCTAssertThrowsError(try sut.divideByZero(number1: number1, number2: number2))
+        XCTAssertThrowsError(try sut.divide(number1: number1, number2: number2))
     }
     
     func test_squareArray_correctInput_correctResult() {
-        print("NOW squareArray_correctInput_correctResult()")
         // Given
         let intArray = [2, 3, 4, 5, 6]
         let expectedResult = [4, 9, 16, 25, 36]
@@ -111,8 +102,10 @@ class CalculatorTests: XCTestCase {
         let fahrenheitArray = [33.8, 35.6, 37.4, 39.2, 41]
         // When
         let convertedFarenheit = fahrenheitArray.map { tempSut.toCelsius(farenheit: $0) }
+        let roundedFarenheit = convertedFarenheit.map{ $0.rounded() }
         // Then
-        //XCTAssertEqual(convertedFarenheit, celsiusArray)
+        XCTAssertEqual(roundedFarenheit, celsiusArray)
+        // Using accuracy
         for i in 0 ..< celsiusArray.count {
             XCTAssertEqual(convertedFarenheit[i], celsiusArray[i], accuracy: 0.1)
         }
@@ -130,7 +123,7 @@ class CalculatorTests: XCTestCase {
     
     func testPerformanceCalculator() {
         self.measure {
-            _ = sut.divide(number1: 26549876, number2: 29545684)
+            _ = try? sut.divide(number1: 26549876, number2: 29545684)
         }
     }
     

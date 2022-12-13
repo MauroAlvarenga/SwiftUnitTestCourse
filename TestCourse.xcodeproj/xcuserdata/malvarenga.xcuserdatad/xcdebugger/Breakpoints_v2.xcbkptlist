@@ -14,106 +14,10 @@
             filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "test_toCelsius()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "test_toCelsius()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E - 158a5a3765aaba0e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
-                  moduleName = "TestCourseTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "A6ADEA55-C3D2-4627-9D95-DFAA52DAC70E - 158a5a3765aaba0e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
-                  moduleName = "TestCourseTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "164">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestCourseTests/XCTest/CalculatorTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "test_toCelsius()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F - 158a5a3765aaba0e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
-                  moduleName = "TestCourseTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "9F8480CD-82EE-484B-90EA-D3987C94F23F - 158a5a3765aaba0e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TestCourseTests.CalculatorTests.test_toCelsius() -&gt; ()"
-                  moduleName = "TestCourseTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/malvarenga/Documents/Development/Cursos/TestCourse/TestCourseTests/XCTest/CalculatorTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "164">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
