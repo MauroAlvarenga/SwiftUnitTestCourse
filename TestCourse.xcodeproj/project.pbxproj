@@ -10,8 +10,10 @@
 		A724F2F592D63D5C97079DE2 /* Pods_TestCourse_TestCourseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6309D3B738A003E5B5B00EAF /* Pods_TestCourse_TestCourseUITests.framework */; };
 		AFC4043CCD6A697A09B40418 /* Pods_TestCourseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC3D4C38992CDBC5C386F49 /* Pods_TestCourseTests.framework */; };
 		D0C3F79B028B5A0F31D6F36A /* TestCourseTests-TestCourseMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B0875B00DE49E4527E490 /* TestCourseTests-TestCourseMocks.generated.swift */; };
+		E747544D2948CF2C0039E8B4 /* AddTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E747544C2948CF2C0039E8B4 /* AddTest.swift */; };
 		E74C134F28BD64CE00BCA859 /* TemperatureCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C134E28BD64CE00BCA859 /* TemperatureCalculator.swift */; };
 		E75CEDAE28C69D14000F30D9 /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CEDAD28C69D14000F30D9 /* StringManager.swift */; };
+		E761F1BF29AE3DC200177EC4 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = E761F1BE29AE3DC200177EC4 /* Print.swift */; };
 		E7D65D362902F5B600EA9D9C /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D65D352902F5B600EA9D9C /* ValidNumber.swift */; };
 		E7D65D392902F68400EA9D9C /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */; };
 		E7EF6358289B19080052336F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF6357289B19080052336F /* AppDelegate.swift */; };
@@ -21,7 +23,6 @@
 		E7EF6362289B19080052336F /* TestCourse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7EF6360289B19080052336F /* TestCourse.xcdatamodeld */; };
 		E7EF6364289B19090052336F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EF6363289B19090052336F /* Assets.xcassets */; };
 		E7EF6367289B19090052336F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF6365289B19090052336F /* LaunchScreen.storyboard */; };
-		E7EF6372289B19090052336F /* TestCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF6371289B19090052336F /* TestCourseTests.swift */; };
 		E7EF637C289B19090052336F /* TestCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF637B289B19090052336F /* TestCourseUITests.swift */; };
 		E7EF637E289B19090052336F /* TestCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF637D289B19090052336F /* TestCourseUITestsLaunchTests.swift */; };
 		E7EF638D289B1D030052336F /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF638C289B1D030052336F /* Calculator.swift */; };
@@ -48,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F9B0875B00DE49E4527E490 /* TestCourseTests-TestCourseMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "TestCourseTests-TestCourseMocks.generated.swift"; path = "MockingbirdMocks/TestCourseTests-TestCourseMocks.generated.swift"; sourceTree = "<group>"; };
+		0F9B0875B00DE49E4527E490 /* TestCourseTests-TestCourseMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "TestCourseTests-TestCourseMocks.generated.swift"; path = "MockingbirdMocks/TestCourseTests-TestCourseMocks.generated.swift"; sourceTree = "<group>"; };
 		27BA7A9EFCB74F54028A875C /* Pods_TestCourse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCourse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7CFBA04BCCBE499A5E1977 /* Pods-TestCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCourse.debug.xcconfig"; path = "Target Support Files/Pods-TestCourse/Pods-TestCourse.debug.xcconfig"; sourceTree = "<group>"; };
 		6309D3B738A003E5B5B00EAF /* Pods_TestCourse_TestCourseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCourse_TestCourseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,8 +59,10 @@
 		D314F7D0ED626B795CF7D591 /* Pods-TestCourseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCourseTests.release.xcconfig"; path = "Target Support Files/Pods-TestCourseTests/Pods-TestCourseTests.release.xcconfig"; sourceTree = "<group>"; };
 		DEC3D4C38992CDBC5C386F49 /* Pods_TestCourseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCourseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185269C2F20C3C2BDE304C7 /* Pods-TestCourseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCourseTests.debug.xcconfig"; path = "Target Support Files/Pods-TestCourseTests/Pods-TestCourseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E747544C2948CF2C0039E8B4 /* AddTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTest.swift; sourceTree = "<group>"; };
 		E74C134E28BD64CE00BCA859 /* TemperatureCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCalculator.swift; sourceTree = "<group>"; };
 		E75CEDAD28C69D14000F30D9 /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
+		E761F1BE29AE3DC200177EC4 /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		E7D65D352902F5B600EA9D9C /* ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
 		E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
 		E7EF6354289B19080052336F /* TestCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +75,6 @@
 		E7EF6366289B19090052336F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7EF6368289B19090052336F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EF636D289B19090052336F /* TestCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7EF6371289B19090052336F /* TestCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCourseTests.swift; sourceTree = "<group>"; };
 		E7EF6377289B19090052336F /* TestCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EF637B289B19090052336F /* TestCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCourseUITests.swift; sourceTree = "<group>"; };
 		E7EF637D289B19090052336F /* TestCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -119,7 +121,6 @@
 				E185269C2F20C3C2BDE304C7 /* Pods-TestCourseTests.debug.xcconfig */,
 				D314F7D0ED626B795CF7D591 /* Pods-TestCourseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +147,7 @@
 			children = (
 				E7D65D352902F5B600EA9D9C /* ValidNumber.swift */,
 				E7F19DF52915BD43008DAE03 /* Add.swift */,
+				E761F1BE29AE3DC200177EC4 /* Print.swift */,
 			);
 			name = Mock;
 			sourceTree = "<group>";
@@ -153,7 +155,7 @@
 		E7D65D372902F67800EA9D9C /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */,
+				E747544C2948CF2C0039E8B4 /* AddTest.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -203,7 +205,6 @@
 			children = (
 				E7D65D372902F67800EA9D9C /* Mock */,
 				E7EF638E289B1DD50052336F /* XCTest */,
-				E7EF6371289B19090052336F /* TestCourseTests.swift */,
 			);
 			path = TestCourseTests;
 			sourceTree = "<group>";
@@ -230,6 +231,7 @@
 		E7EF638E289B1DD50052336F /* XCTest */ = {
 			isa = PBXGroup;
 			children = (
+				E7D65D382902F68400EA9D9C /* ValidNumberTest.swift */,
 				E7EF638F289B1DF40052336F /* CalculatorTests.swift */,
 			);
 			path = XCTest;
@@ -484,6 +486,7 @@
 				E7EF638D289B1D030052336F /* Calculator.swift in Sources */,
 				E75CEDAE28C69D14000F30D9 /* StringManager.swift in Sources */,
 				E7D65D362902F5B600EA9D9C /* ValidNumber.swift in Sources */,
+				E761F1BF29AE3DC200177EC4 /* Print.swift in Sources */,
 				E74C134F28BD64CE00BCA859 /* TemperatureCalculator.swift in Sources */,
 				E7EF635A289B19080052336F /* SceneDelegate.swift in Sources */,
 			);
@@ -494,8 +497,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D65D392902F68400EA9D9C /* ValidNumberTest.swift in Sources */,
-				E7EF6372289B19090052336F /* TestCourseTests.swift in Sources */,
 				E7EF6390289B1DF40052336F /* CalculatorTests.swift in Sources */,
+				E747544D2948CF2C0039E8B4 /* AddTest.swift in Sources */,
 				D0C3F79B028B5A0F31D6F36A /* TestCourseTests-TestCourseMocks.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
